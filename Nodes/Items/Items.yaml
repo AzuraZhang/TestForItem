@@ -49,3 +49,20 @@ Children:
       DataType: Size
       ModellingRule: Optional
       Value: 300.0
+- Name: Switch1
+  Type: ObjectLibraryItem
+  Children:
+  - Name: Switch1
+    Id: g=33db0db1360874cd3da9eaa446962d79
+    Supertype: Switch
+    ReferenceType: HasComponent
+    Children:
+    - Name: Checked
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+    - Name: Width
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 60.0
